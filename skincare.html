@@ -182,7 +182,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <body>
 
       <button onclick="myFunction2()">Vitamin C Recipe</button>
-
+<div id="Waffles">
       <p id="demo2"></p>
         <h2>Ingredients</h2>
         <ul>
@@ -205,6 +205,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
           <li>Serve hot with butter, jam and syrup</li>
         
         </ol>
+    </div>
+         <script>
+           function myFunction2() {
+             var waffles= document.getElementById('Waffles');
+             if (waffles.style.display == 'none') {
+               waffles.style.display = 'block';
+            } else {
+              waffles.style.display = 'none';
+              }
+           }
+          </script>
       </body>
       </html>
       </div>
