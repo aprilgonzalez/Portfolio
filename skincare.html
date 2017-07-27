@@ -135,7 +135,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <body>
 
         <button onclick="myFunction1()">Vitamin C Recipe</button>
-
+        <div id="Smoothie">
         <p id="demo1"></p>
           <h2>Ingredients</h2>
           <ul>
@@ -155,10 +155,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
               <li>Pour into glasses. If desired, garnish with additional strawberries or sliced papaya and fresh mint</li>
               <li>Serve immediately</li>
               </ol>
-                
-       
-          
-          
+          </div>
+         <script>
+           function myFunction() {
+             var smoothie= document.getElementById('Smoothie');
+             if (smoothie.style.display == 'none') {
+               smoothie.style.display = 'block';
+            } else {
+              smoothie.style.display = 'none';
+              }
+           }
+          </script> 
         </body>
         </html>
       </div>
