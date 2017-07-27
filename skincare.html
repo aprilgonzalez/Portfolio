@@ -233,7 +233,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <body>
 
         <button onclick="myFunction3()">Vitamin D Recipe</button>
-
+<div id="Yogurt">
         <p id="demo3"></p>
           <h2>Ingredients</h2>
           <ul>
@@ -248,6 +248,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
             <li>Place the dipped strawberries on the sheet pan lined with parchment or wax paper</li>
             <li>Freeze for 30 minutes or 1 hour</li>
           </ol>
+   </div>
+         <script>
+           function myFunction3() {
+             var yogurt= document.getElementById('Yogurt');
+             if (yogurt.style.display == 'none') {
+               yogurt.style.display = 'block';
+            } else {
+              yogurt.style.display = 'none';
+              }
+           }
+          </script>
          
 
         </body>
@@ -263,7 +274,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <body>
 
         <button onclick="myFunction4()">Vitamin D Recipe</button>
-
+<div id="Burritos">
         <p id="demo4"></p>
           <h2>Ingredients</h2>
           <ul>
@@ -288,7 +299,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
             <li>Roll up burrito-style (fold bottom up and sides to center)</li> 
             <li>Repeat with remaining ingredients</li> 
           </ol>
-       
+       </div>
+         <script>
+           function myFunction4() {
+             var burritos= document.getElementById('Burritos');
+             if (burritos.style.display == 'none') {
+               burritos.style.display = 'block';
+            } else {
+              burritos.style.display = 'none';
+              }
+           }
+          </script>
+         
 
         </body>
         </html>
