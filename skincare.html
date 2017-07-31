@@ -351,6 +351,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
       <button onclick="myFunction5()">Vitamin D Recipe</button>
         <div id="salmon">
+          <h2>Ingredients</h2>
           <ul>
             <li>1 tablespoon maple syrup</li>
 <li>1 tablespoon hoisin sauce</li>
@@ -409,14 +410,41 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <body>
 
       <button onclick="myFunction6()">Vitamin A Recipe</button>
+ <div id="salad">
+   <h2>Ingredients</h2> 
+   <ul>
+<li>400g tin chickpeas in water, drained</li>
+<li>1 mango, peeled and diced</li>
+<li>1 small cucumber, diced</li>
+<li>200g cherry tomatoes, halved</li>
+<li>1 red onion, sliced</li>
+<li>2 small courgettes, sliced into ribbons with a vegetable peeler</li>
+<li>50g peppadew peppers</li>
+<li>3 wholemeal pittas or pieces of French stick, toasted</li>
+<li>2tbsp sesame seeds, toasted</li>
+<li>Lemon wedges, to serve</li>
+   </ul>
 
-      <p id="demo6"></p>
-
-      <script>
-      function myFunction6() {
-          document.getElementById("demo6").innerHTML = "World";
-      }
-      </script>
+   <h2>Directions</h2>
+   <ol>
+<li>Put the chickpeas in a large bowl with the mango, cucumber, tomatoes, onion, courgettes and peppers</li>
+<li>Break the toasted pittas into chunks, then add these (or toasted pieces of French stick) to the salad and toss lightly</li>
+<li>Mix all the dressing ingredients together in a small bowl or jug, then add some to the salad and toss</li>
+<li>Sprinkle with the sesame seeds and serve, garnished with extra coriander leaves, with the lemon wedges and remaining dressing on the side</li>
+   </ol>
+ </div>
+           <p id="demo6"></p>
+   <script>
+        function myFunction6() {
+          var div = document.getElementById('salad');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
+        }
+        };
+        </script>  
 
       </body>
       </html>
@@ -431,30 +459,39 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <body>
 
 <button onclick="myFunction7()">Vitamin A Recipe</button>
-
-<p id="demo7"></p>
-
-<script>
-function myFunction7() {
-    document.getElementById("demo7").innerHTML = "<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>--Ingredients--1tbsp sunflower oil
-1 large onion, chopped
-2 garlic cloves, sliced
-2 large carrots, cut into chunks
-500g floury potatoes, scrubbed and cut into chunks
-1 tbsp hot curry powder
-2 tsp reduced-salt vegetable stock powder
-A few fresh coriander sprigs and 2 tbsp pumpkin seeds, to garnish
---Directions--
-Heat the oil in a large saucepan and cook the onion and garlic until softened.
-Add all the remaining ingredients apart from the fresh coriander and pumpkin seeds. Season with ground black pepper and cover with 1 litre boiling water. Bring back up to the boil, then reduce the heat and simmer for 20–25 min until the veg are tender.
-Remove the pan from the heat, then blend with a stick blender until smooth.
-Divide the soup among 6 bowls, then sprinkle over the coriander, pumpkin seeds and some black pepper to serve.";
-}
-</script>
+<div id="soup">
+  <h2>Ingredients</h2>
+  <ul>
+   <li>1 tbsp sunflower oil</li>
+<li>1 large onion, chopped</li>
+<li>2 garlic cloves, sliced</li>
+<li>2 large carrots, cut into chunks</li>
+<li>500g floury potatoes, scrubbed and cut into chunks</li>
+<li>1 tbsp hot curry powder</li>
+<li>2 tsp reduced-salt vegetable stock powder</li>
+<li>A few fresh coriander sprigs and 2 tbsp pumpkin seeds, to garnish</li>
+  </ul>
+    <h2>Directions</h2>
+    <ol>
+<li>Heat the oil in a large saucepan and cook the onion and garlic until softened</li>
+<li>Add all the remaining ingredients apart from the fresh coriander and pumpkin seeds</li> 
+  <li>Season with ground black pepper and cover with 1 litre boiling water. Bring back up to the boil, then reduce the heat and simmer for 20–25 min until the veg are tender</li>
+<li>Remove the pan from the heat, then blend with a stick blender until smooth</li>
+<li>Divide the soup among 6 bowls, then sprinkle over the coriander, pumpkin seeds and some black pepper to serve</li>
+    </ol>
+  </div>
+           <p id="demo7"></p>
+   <script>
+        function myFunction7() {
+          var div = document.getElementById('soup');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
+        }
+        };
+        </script> 
 
 </body>
 </html>
@@ -469,15 +506,33 @@ Divide the soup among 6 bowls, then sprinkle over the coriander, pumpkin seeds a
 <body>
 
 <button onclick="myFunction8()">Vitamin A Recipe</button>
-
-<p id="demo8"></p>
-
-<script>
-function myFunction8() {
-    document.getElementById("demo8").innerHTML = "Hello World";
-}
-</script>
-
+<div id="kiwi">
+  <h2>Ingredients</h2>
+  <ul>
+    <li>500g tub 2% fat Greek yogurt</li>
+<li>2 tsp icing sugar, sifted</li>
+<li>50g ready-made mini meringues, crumbled</li>
+<li>6–8 kiwi fruits (about 500g), peeled and chopped</li>
+  </ul>
+  <h2>Directions</h2>
+  <ol>
+    <li>Put the Greek yogurt and icing sugar into a mixing bowl, then stir to combine</li>
+ <li> Add the diced kiwi and crumbled meringues, then gently fold together</li>
+<li>Spoon the mixture into short glasses and serve</li>
+  </ol>
+</div>
+           <p id="demo8"></p>
+   <script>
+        function myFunction8() {
+          var div = document.getElementById('kiwi');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
+        }
+        };
+        </script> 
 </body>
 </html>
       </div>
@@ -511,14 +566,53 @@ function myFunction8() {
         <body>
 
         <button onclick="myFunction9()">Vitamin B Recipe</button>
-
-        <p id="demo9"></p>
-
-        <script>
+<div id="grain">
+  <h2>Ingredients</h2>
+  <ul>
+<li>Cooking oil spray</li>
+<li>2 cups whole-wheat flour</li>
+<li>1/2 cup wheat germ</li>
+<li>1/2 cup granulated sugar</li>
+<li>1/2 teaspoon salt</li>
+<li>2 sticks butter, cut into 16 pieces and softened</li>
+<li>1/2 cup old-fashioned rolled oats</li>
+<li>1/2 cup walnut pieces</li>
+<li>1/4 cup light brown sugar</li>
+<li>2 tablespoons ground flax seeds</li>
+<li>3/4 cup sugar-free raspberry jam</li>
+<li>3/4 cup fresh raspberries</li>
+<li>1 tablespoon lemon juice</li>
+  </ul>
+  <h2>Directions</h2>
+  <ol>
+<li>Preheat oven to 375° F. Line a 13 x 9-inch pan with foil by spreading two sheets of foil perpendicular to each other over the pan, with extra foil hanging over the edges</li>
+    <li>Grease the foil with cooking spray</li>
+<li>Whisk the flour, wheat germ, granulated sugar and salt in a large bowl</li>
+   <li>Beat in 14 tablespoons of butter with an electric mixer on low until the mixture looks like wet sand, about 1½ minutes</li>
+  <li>Reserve 1¼ cups of the mixture for the topping and put the rest into the pan. Use the bottom of a measuring cup to press it into an even layer</li>
+    <li>Bake the crust until the edges begin to brown, about 14-18 minutes</li>
+<li>Mix the reserved flour mixture with the oats, nuts, brown sugar and flax seeds</li>
+    <li>Add the remaining butter and pinch the mixture with your fingers into small clumps</li>
+<li>In a separate bowl, lightly smash the raspberries, jam and lemon juice together</li>
+<li>Spread the berry mixture over the hot crust and sprinkle the crumb streusel on top</li> 
+   <li>Bake until golden brown, about 22-25 minutes</li>
+<li>Let the bars cool completely in the pan. Remove bars from pan by lifting up the foil edges. Cut into 24 squares</li>
+  </ol>
+  
+  </div>
+           <p id="demo9"></p>
+   <script>
         function myFunction9() {
-            document.getElementById("demo9").innerHTML = "Hello World";
+          var div = document.getElementById('grain');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
         }
-        </script>
+        };
+        </script> 
+ 
 
         </body>
         </html>
@@ -533,14 +627,42 @@ function myFunction8() {
         <body>
 
         <button onclick="myFunction10()">Vitamin B Recipe</button>
-
-        <p id="demo10"></p>
-
-        <script>
+<div id="egg">
+  <h2>Ingredients</h2>
+  <ul>
+    <li>2 large eggs</li>
+<li>6 ounces nonfat evaporated milk</li>
+<li>1/2 teaspoon hot sauce</li>
+<li>Salt</li>
+<li>1 teaspoon dry mustard</li>
+<li>8 ounces whole-wheat elbow macaroni</li>
+<li>3 cups egg whites</li>
+<li>2 tablespoons unsalted butter</li>
+<li>8 ounces reduced-fat sharp cheddar, shredded</li>
+<li>6 slices turkey bacon</li>
+  </ul>
+  <h2>Directions</h2>
+  <ol>
+In a small bowl, whisk together the whole eggs, milk, hot sauce and mustard. Salt to taste. Set aside.
+Bring 2 quarts of water to a boil in a large pot. Add the pasta and cook until al dente, about 7 minutes. Drain and set aside.
+In a large non-stick skillet, scramble the egg whites until cooked through and opaque. Set aside.
+Re-heat the pot to low and melt in the butter. Whisk in the sauce and cheese and stir constantly until creamy, about 3 minutes. Add pasta and eggs; toss to coat.
+Place turkey bacon in a single layer on a paper towel-lined microwave-safe plate. Microwave on high until crispy, about 2 minutes.
+Distribute the macaroni and eggs evenly among 6 bowls and crumble 1 strip of turkey bacon on top of each serving.
+  </ol>
+ </div>
+           <p id="demo10"></p>
+   <script>
         function myFunction10() {
-            document.getElementById("demo10").innerHTML = "Hello World";
+          var div = document.getElementById('egg');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
         }
-        </script>
+        };
+        </script> 
 
         </body>
         </html>
@@ -555,15 +677,47 @@ function myFunction8() {
         <body>
 
         <button onclick="myFunction11()">Vitamin B Recipe</button>
-
-        <p id="demo11"></p>
-
-        <script>
+<div id="chili">
+  <h2>Ingredients</h2>
+  <ul>
+    <li>2 15-ounce can black beans, drained and rinsed</li>
+<li>1 15-ounce can red kidney beans, drained and rinsed</li>
+<li>1 15-ounce can corn kernels, drained and rinsed</li>
+<li>1 15-ounce can fire roasted diced tomatoes</li>
+<li>1 cup quinoa, uncooked</li>
+<li>3 cups vegetable broth</li>
+<li>1/2 medium onion, chopped</li>
+<li>1 poblano pepper, chopped finely</li>
+<li>1 medium green pepper, chopped</li>
+<li>1 tablespoon cilantro, minced</li>
+<li>2 cloves garlic, minced</li>
+<li>3 teaspoons chili powder</li>
+<li>1 teaspoon onion powder</li>
+<li>1 teaspoon garlic powder</li>
+<li>1 teaspoon cumin</li>
+<li>1/2 teaspoon salt</li>
+<li>1/2 teaspoon ground black pepper</li>
+<li>3-4 dashes of your favorite hot sauce</li>
+  </ul>
+  <h2>Directions</h2>
+  <ol>
+    <li>Place all ingredients in large stock pot and over medium-high heat, bring to a boil</li>
+    <li>Let simmer for 40-50 minutes uncovered, or until desired consistency</li>
+  </ol>
+    <p id="demo11"></p>
+   <script>
         function myFunction11() {
-            document.getElementById("demo11").innerHTML = "Hello World";
+          var div = document.getElementById('chili');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
         }
+        };
         </script>
-
+   
+      
         </body>
         </html>
       </div>
