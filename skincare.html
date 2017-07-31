@@ -100,13 +100,39 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
         <button onclick="myFunction()">Vitamin C Recipe</button>
 
-        <p id="demo"></p>
+        <p id="Broccoli"></p>
 
-        <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "Hello World";
-        }
-        </script>
+          <h2>Ingredients</h2>
+          <ul>
+            <li>1 cup pasta, uncooked</li>
+            <li>1 cup broccoli florets</li>
+            <li>1-2 tablespoons olive oil</li>
+            <li>¼ cup grated parmesan cheese, vegan parmesan substitute, or nutritional yeast</li>
+            <li>Salt & pepper to taste</li>
+          </ul>
+          <h2>Directions</h2>
+          <ol>
+          <li>Bring 6 cups water to a boil in a pot. Cook pasta according to directions on package</li>
+          <li>Bring 1-2 inches of water to a boil in a small saucepan</li>
+          <li>Chop broccoli into even pieces and place in a steamer basket, and place on top of the saucepan</li>
+          <li> Cover with lid and steam until tender, about 5-6 minutes</li>
+          <li>Alternately, cook broccoli covered in the microwave for 3-5 minutes, or until tender</li>
+          <li>Drain cooked pasta and return to pan. Add olive oil, cooked broccoli, grated Parmesan, and salt and pepper to taste</li>
+          </ol>
+         
+          <script>
+function myFunction() {
+    var x = document.getElementById('Broccoli');
+    if (broccoli == 'none') {
+        broccoli = 'block';
+    } else {
+        broccoli = 'none';
+    }
+}
+</script>
+
+          
+          
 
         </body>
         </html>
