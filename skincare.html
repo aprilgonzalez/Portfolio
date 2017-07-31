@@ -187,18 +187,44 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <p><b>Orange Almond Waffles</b></p>
         <p>This waffles contains many health benefits, such as high in fiber and help fight inflammation that many of us needs. It is great to start of the morning with an orange almond waffles, plus, breakfast is the most important meal of the day.</p>
       <html>
-      <html>
       <body>
 
       <button onclick="myFunction2()">Vitamin C Recipe</button>
-
-      <p id="demo2"></p>
-
-      <script>
-      function myFunction2() {
-          document.getElementById("demo2").innerHTML = "waffle";
-      }
-      </script>
+<div id="waffle">
+  <h2>Ingredients</h2>
+  <ul>
+    <li>2 cups of flour</li>
+    <li>3 teaspoon baking powder</li>
+    <li>2 tablespoon of sugar</li>
+    <li>½ teaspoon salt</li>
+    <li>4 eggs</li>
+    <li>½ cup milk</li>
+    <li>½ pulp free orange juice</li>
+    <li>4 tablespoons melted butter</li>
+    <li>3 tablespoons grated orange zest</li>
+  </ul>
+  <h2>Directions</h2>
+  <ul>
+    <li>In a large bowl, mix together baking powder, flour, sugar, and salt</li>
+    <li>In a separate bowl, combine eggs, milk, orange juice, and butter; beat well<li>
+    <li>Add orange zest to egg mixture; pour this into flour mixture beating well until mixture is smooth</li>
+    <li>Ladle onto hot, oiled the waffle iron and cook until waffles are golden</li>
+    <li>Serve hot with butter, jam and syrup</li>
+  </ul>
+   </div>
+           <p id="demo2"></p>
+   <script>
+        function myFunction2() {
+          var div = document.getElementById('waffle');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
+        }
+        };
+        </script>
+     
 
       </body>
       </html>
