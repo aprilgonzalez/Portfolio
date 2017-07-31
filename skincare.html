@@ -145,13 +145,36 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <body>
 
         <button onclick="myFunction1()">Vitamin C Recipe</button>
-
-        <p id="demo1"></p>
-
-        <script>
+          <div id="smoothie">
+               <h2>Ingredients</h2>
+          <ul>
+            <li>3/4 cup papaya, peeled, seeded and chopped</li>
+            <li>1/2 cup fresh strawberries</li>
+            <li>1 cup Reduced Fat Milk</li>
+            <li>1 tablespoon honey, or as needed</li>
+            <li>3 large ice cubes</li>
+            <li>Papaya or strawberry slices (optional)</li>
+            <li>Fresh mint (optional)</li>
+          </ul>
+          <h2>Directions</h2>
+          <ol>
+            <li>In a blender container combine papaya, strawberries, Reduced Fat Milk, and honey</li> 
+            <li>Cover and blend until smooth</li>
+            <li>With the blender running, add ice cubes, one at a time, through the opening in the lid, until ice is crushed and mixture is smooth</li>
+           <li>Pour into glasses. If desired, garnish with additional strawberries or sliced papaya and fresh mint. Serve immediately</li>
+          </ol>
+          </div>
+           <p id="demo1"></p>
+ <script>
         function myFunction1() {
-            document.getElementById("demo1").innerHTML = "recipe";
+          var div = document.getElementById('smoothie');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
         }
+        };
         </script>
 
         </body>
