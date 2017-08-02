@@ -124,7 +124,28 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
         <button onclick="myFunction()">Vitamin C Recipe</button>
           <div id="broccoli">
-              <h2>Ingredients</h2>
+             </div>
+        <p id="demo"></p>
+          <script>
+        function myFunction() {
+          var div = document.getElementById('broccoli');
+          if(div.style.display!== 'none') {
+            div.style.display= 'none';
+          }
+          else {
+            div.style.display = 'block'; 
+        }
+        };
+        </script>
+
+            
+            
+            
+            
+              
+            
+            
+            <h2>Ingredients</h2>
           <ul>
             <li>1 cup pasta, uncooked</li>
             <li>1 cup broccoli florets</li>
@@ -141,19 +162,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
           <li>Alternately, cook broccoli covered in the microwave for 3-5 minutes, or until tender</li>
           <li>Drain cooked pasta and return to pan. Add olive oil, cooked broccoli, grated Parmesan, and salt and pepper to taste</li>
             </ol>
-          </div>
-        <p id="demo"></p>
-          <script>
-        function myFunction() {
-          var div = document.getElementById('broccoli');
-          if(div.style.display!== 'none') {
-            div.style.display= 'none';
-          }
-          else {
-            div.style.display = 'block'; 
-        }
-        };
-        </script>
+       
 
 
         </body>
